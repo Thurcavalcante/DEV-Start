@@ -1,0 +1,1 @@
+let jaVotou = true;
