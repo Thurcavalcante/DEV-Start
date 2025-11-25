@@ -1,0 +1,15 @@
+function obterLetraDaNota(nota) {
+  if (nota >= 10 && nota < 15) {
+    return "B";
+  } else if (nota >= 15) {
+    return "A";
+  } else {
+    return "F";
+  }
+}
+
+// Não modifique as linhas abaixo
+console.log(obterLetraDaNota(18));
+console.log(obterLetraDaNota(15));
+console.log(obterLetraDaNota(13));
+console.log(obterLetraDaNota(4));
